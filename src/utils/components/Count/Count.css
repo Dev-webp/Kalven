@@ -1,0 +1,65 @@
+.counter-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px 150px;
+  margin-top: 180px;
+}
+
+.counter-grid {
+  background-color: #f3fff9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.counter-grid h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.counter-grid:hover {
+  transform: scale(1.05);
+}
+
+/* Icon styling */
+.icon {
+  font-size: 2rem; /* Smaller icon for mobile */
+  color: #007bff;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .counter-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+      padding: 20px 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .counter-container {
+      grid-template-columns: 1fr; /* Single column on small screens */
+      padding: 15px;
+      margin-top: 100px; /* Adjust top margin for smaller screens */
+  }
+
+  .counter-grid {
+      padding: 15px; /* Reduce padding to fit smaller screens */
+  }
+
+  .counter-grid h3 {
+      font-size: 1rem; /* Slightly smaller font size */
+  }
+
+  .icon {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+  }
+}

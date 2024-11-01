@@ -1,0 +1,61 @@
+:root {
+  --dark-bg: #000;
+  --light-bg: #f6f7fb;
+  --primary-color: #292929;
+  --secondary-color: #08127d;
+  --third-color: #E6D62D;
+  --fourth-color: #fee590;
+  --text-color: #867eb5;
+  --text-secondary: #554b92;
+  --text-color-dark: #12183f;
+  --text-color-light: #fcf3d4;
+  --text-color-gray: #e8e8e8;
+  --title-color: #221577;
+  --border-color: #6a55f8;
+  --border-color-dark: #27263a;
+  --border-color-light: #0042CB;
+  --shadow: 10px 12px 48px rgba(181, 187, 203, 0.206);
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--text-color);
+  touch-action: pan-y pan-x;
+  transition: all 0.4s cubic-bezier(0.57, 0.25, 0.33, 1) 0s;
+}
+
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}

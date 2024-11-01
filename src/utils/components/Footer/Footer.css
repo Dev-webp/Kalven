@@ -1,0 +1,69 @@
+.f-wrapper{
+    background-color: var(--primary-color);
+}
+
+.f-wrapper .container{
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.f-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.f-container .title{
+    color: white;
+}
+
+.f-container .emailBox{
+    max-width: 36rem;
+}
+
+.f-container hr{
+    border-color: var(--border-color-light);
+    width: 100%;
+}
+
+.f-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.f-menu span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.text-f{
+    font-weight:300;
+}
+
+
+@media (max-width: 990px) {
+    .f-menu{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .text-f{
+        font-size:medium;
+        text-align: center;
+    }
+    .C-f{
+        letter-spacing: 0.1rem;
+    }
+    .W-f {
+        display: block;
+        letter-spacing: 0.1rem;
+    }
+}

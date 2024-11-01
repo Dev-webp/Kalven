@@ -1,0 +1,128 @@
+.od-wrapper {
+    padding: 14rem 2rem;
+  }
+  
+  .od-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .od-head {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .od-head .tag-s {
+    color: #E6D62D;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .od-head .title-s {
+    font-size: 1.6rem;
+    color: #E6D62D;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.5rem;
+    text-transform: capitalize;
+  }
+  
+  .od-head .text-s {
+    color: #E6D62D;
+    text-align: center;
+    max-width: 75%;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  
+  .od-features {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 10rem;
+    flex-wrap: wrap; /* Allows features to wrap on smaller screens */
+  }
+  
+  .od-feature {
+    flex: 1;
+    background-color: white;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.3s ease;
+    min-width: 250px; /* Prevents shrinking too small */
+  }
+  
+  .od-feature:hover {
+    background-color: #ebfaf3;
+    transition: background-color 0.6s ease;
+  }
+
+  .od-feature .sec-title-s {
+    font-size: 2rem;
+    color: #292929;
+    font-weight: 600;
+    text-align: center;
+    line-height: 3rem;
+    text-transform: capitalize;
+  }
+  
+  .od-feature .text-s {
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .od-wrapper {
+      padding: 8rem 2rem;
+    }
+  
+    .od-features {
+      gap: 1.5rem;
+    }
+  
+    .od-head .title {
+      font-size: 1.5rem;
+    }
+
+  }
+  
+  @media (max-width: 576px) {
+    .od-wrapper {
+      padding: 4rem 0rem;
+    }
+  
+    .od-head .text {
+      max-width: 90%; /* Expands text area to fit screen */
+    }
+  
+    .od-features {
+      flex-direction: column; /* Stacks features vertically */
+      gap: 1rem;
+      margin-bottom: 5rem;
+    }
+  
+    .od-feature {
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .od-head .title {
+      font-size: 1.2rem; /* Smaller title font */
+    }
+  
+    .od-head .tag {
+      font-size: 2.5rem; /* Adjust tag font size */
+    }
+  }
+  
+
+

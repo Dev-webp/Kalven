@@ -1,0 +1,30 @@
+{
+  "name": "digital-business-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.16",
+    "framer-motion": "^10.18.0",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "13.4.16",
+    "react": "18.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "18.2.0",
+    "react-heroicons": "^0.0.1",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^9.13.1",
+    "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
+    "react-tsparticles": "^2.12.2",
+    "tailwind-merge": "^2.5.4",
+    "tsparticles": "^3.1.0"
+  }
+}

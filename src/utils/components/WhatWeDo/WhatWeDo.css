@@ -1,0 +1,131 @@
+.wwd-wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+}
+
+.wwd-wrapper .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 8rem;
+    color: #f4f4f4;
+}
+
+.wwd-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.wwd-container > div {
+    flex: 1;
+}
+
+.wwd-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.head .tag-w {
+    color: #E6D62D;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.head .title-w {
+    font-size: 2rem;
+    color: #E6D62D;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.wwd-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.wwd-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 30rem;
+    padding: 1.5rem;
+    background-color: #333333;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wwd-feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.wwd-feature .des-w {
+    color: #E6D62D;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.wwd-feature .text-w {
+    color: #f4f4f4;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.wwd-right {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.wwd-right img {
+    width: 90%;
+    margin-left: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.h {
+    border-color: #444;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+@media (max-width: 990px) {
+    .wwd-container {
+        flex-direction: column;
+        padding: 2rem 0rem;
+    }
+
+    .wwd-right {
+        display: none;
+    }
+
+    .head .tag-w, .head .title-w {
+        font-size: 1.6rem;
+    }
+
+    .wwd-feature .des-w {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px){
+    .wwd-wrapper {
+        padding: 4rem 0rem;
+    }
+}
