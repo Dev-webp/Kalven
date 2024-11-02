@@ -24,10 +24,14 @@ const Navbar = () => {
     <div className={`n-wrapper ${navStyle}`}>
      <div className='container'>
         <div className='n-container'>
-            <div className='n-logo'>
-                {/* <span>Kalven Group Of Limited Liability Company</span> */}
-                {/* <Image src='/kalven.png' alt='logo' width={150} height={150}/> */}
-            </div>
+            {/* <div className='n-logo'>
+                <span>Kalven Group Of Limited Liability Company</span>
+                <Image src='/logo.png' alt='logo' width={250} height={200}/>
+            </div> */}
+            <div className="n-logo">
+    <Image src="/logo-1.png" alt="logo" width={150} height={85} style={{ objectFit: 'contain' }} />
+</div>
+
             <div className='n-right'>
                 <div className='n-menu'>
                 {/* <Link href="/about" className="n-menu-item">About us</Link> */}
@@ -41,13 +45,13 @@ const Navbar = () => {
                 <Link to='pf-wrapper' spy smooth>
                 <span className='n-menu-item'>Solutions</span>
                 </Link>    
-                <Link to='s-wrapper' spy smooth offset={100}>
+                <Link to='wwd-wrapper' spy smooth offset={100}>
                 <span className='n-menu-item'>What We Do</span>
                 </Link>       
                 </div>
-                <div className='contact-button'>
+                <a href="mailto:example@example.com" className='contact-button'>
                     Contact
-                </div>
+                </a>
             </div>
         </div>
      </div>
@@ -70,10 +74,10 @@ const Navbar = () => {
         <Link to="pf-wrapper" spy smooth onClick={() => setMobileMenuOpened(false)}>
             <span>Solutions</span>
         </Link>
-        <Link to="s-wrapper" spy smooth offset={100} onClick={() => setMobileMenuOpened(false)}>
+        <Link to="wwd-wrapper" spy smooth offset={100} onClick={() => setMobileMenuOpened(false)}>
             <span>For-More</span>
         </Link>
-        <div className="m-contact-button">Contact</div>
+        <a href="tel:+1234567890" className="m-contact-button">Contact</a>
         </div>
 
      </div>

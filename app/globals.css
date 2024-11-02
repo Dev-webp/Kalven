@@ -3,7 +3,8 @@
   --light-bg: #f6f7fb;
   --primary-color: #292929;
   --secondary-color: #08127d;
-  --third-color: #E6D62D;
+  /* --third-color: #E6D62D; */
+  --third-color: #7732ac;
   --fourth-color: #fee590;
   --text-color: #867eb5;
   --text-secondary: #554b92;
@@ -13,7 +14,8 @@
   --title-color: #221577;
   --border-color: #6a55f8;
   --border-color-dark: #27263a;
-  --border-color-light: #0042CB;
+  /* --border-color-light: #0042CB; */
+  --border-color-light: #7732ac;
   --shadow: 10px 12px 48px rgba(181, 187, 203, 0.206);
 }
 

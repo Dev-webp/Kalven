@@ -1,8 +1,13 @@
 .n-wrapper{
     /* background-color:  var(--primary-color); */
+    background: linear-gradient(135deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.716)); /* White to soft blue gradient */
+    backdrop-filter: blur(15px); /* Enhanced glassy effect */
+    -webkit-backdrop-filter: blur(15px); /* For Safari */
     width: 100%;
     position: absolute;
-    z-index: 999;  
+    z-index: 999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Optional: adds a soft bottom border */
+    box-shadow: var(--shadow);
 }
 
 .sticky{
@@ -10,10 +15,11 @@
     box-shadow: 10px 12px 48px rgba(181, 187, 203, .206);
     background-color: white;
     top: 0;
+    /* height: 10%; */
 }
 
 .n-container{
-    padding: 1.5rem 1rem;
+    padding: 0rem 1rem;
     color: white;
     font-size: 1rem;
     display: flex;
@@ -24,21 +30,25 @@
 
 .sticky .n-container{
     color: #292929;
-    padding: 0.2rem;
+    padding: 0rem;
 }
-
-.n-logo{
-    font-weight: bold;
+.n-logo {
+    display: flex;
+    align-items: center;
     cursor: pointer;
     font-size: small;
+    width: 150px; /* Set max width for logo container */
+    height: auto; /* Adjust height if needed */
+    overflow: hidden; /* Ensures image doesn't overflow */
 }
+
 
 .n-right{
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 7.5rem;
     font-size: 0.9rem;
 }
 
@@ -56,10 +66,12 @@
     background-color: transparent;
     border-radius: 900px;
     transition: background-color 0.3s ease; 
+    color: #292929;
   
     
     &:hover {
-      background-color: #0042CB; 
+        background-color:  #7732ac;
+      /* background-color: #0042CB;  */
       color: aliceblue;
     }
 }
@@ -70,13 +82,15 @@
 
 .contact-button{
     color: white;
-    background-color: #0042CB;
-    padding: 1rem 1.6rem;
+    background-color:  #7732ac;
+    /* background-color: #0042CB; */
+    padding: 0.8rem 1.6rem;
     font-size: 1rem;
     text-transform: capitalize;
     border-radius: 900px;
     cursor: pointer;
     margin-left: 30px;
+    text-decoration: none;
 
     &:hover {
         background-color:aliceblue; 
@@ -137,6 +151,7 @@
         padding: 1rem 0rem;
         border-radius: 999px;
         color: var(--dark-bg);
+        text-decoration: none;
     }
 }
 

@@ -1,32 +1,32 @@
 export const HeroData = [
   {
-    src: "hero/person1.jpg",
-    bg: "#0be4d1",
+    src: "hero/6.png",
+    bg: "#7732ac",
     delay: 0.1,
   },
   {
-    src: "hero/person2.jpg",
-    bg: "#fde490",
+    src: "hero/3.png",
+    bg: "#ffffff",
     delay: 0.3,
   },
   {
-    src: "hero/person3.jpg",
-    bg: "#00c9f7",
+    src: "hero/4.png",
+    bg: "#7732ac",
     delay: 0.2,
   },
   {
-    src: "hero/person4.jpg",
-    bg: "#83cfdf",
+    src: "hero/1.png",
+    bg: "#7732ac",
     delay: 0.2,
   },
   {
-    src: "hero/person5.jpg",
-    bg: "#fe8856",
+    src: "hero/2.jpg",
+    bg: "#ffffff",
     delay: 0.3,
   },
   {
-    src: "hero/person6.jpg",
-    bg: "#0be4d1",
+    src: "hero/5.png",
+    bg: "#7732ac",
     delay: 0.25,
   },
 ];

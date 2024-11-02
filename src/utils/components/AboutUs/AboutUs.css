@@ -129,14 +129,15 @@
 
 .au-support .te {
     font-size: 2rem;
-    color: #08127d;
+    /* color: #08127d; */
+    color: #292929;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1.2;
 }
 
 .au-support .de {
-    color: #292929;
+    color: #7732ac;
     margin-left: 5px;
     display: inline-block;
 }

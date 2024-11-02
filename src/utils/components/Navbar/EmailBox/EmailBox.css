@@ -27,7 +27,8 @@
     position: absolute;
     right: 0.5rem;
     height: 80%;
-    background-color:  #0042CB;
+    /* background-color:  #0042CB; */
+    background-color:  #7732ac;
     display: flex; 
     align-items: center;
     justify-content: center;

@@ -16,14 +16,16 @@
   }
   
   .od-head .tag-s {
-    color: #E6D62D;
+    color:  #7732ac;
+    /* color: #E6D62D; */
     font-size: 2.5rem;
     font-weight: bold;
   }
   
   .od-head .title-s {
     font-size: 1.6rem;
-    color: #E6D62D;
+    color:  #7732ac;
+    /* color: #E6D62D; */
     font-weight: bold;
     text-align: center;
     line-height: 3.5rem;
@@ -31,7 +33,8 @@
   }
   
   .od-head .text-s {
-    color: #E6D62D;
+    color:  #7732ac;
+    /* color: #E6D62D; */
     text-align: center;
     max-width: 75%;
     font-size: 1.1rem;
