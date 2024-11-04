@@ -5,9 +5,9 @@ import './Count.css';
 
 const CounterGrid = () => {
   const counters = [
-    { id: 2, title: "Top Talent Employees", endValue: 44, icon: <img src="/employee.png" alt="Top Talent Employees" style={{ width: 60, height: 60 }} /> },
-    { id: 2, title: "Happy Clients", endValue: 44, icon: <img src="/partnership.png" alt="Happy Clients" style={{ width: 60, height: 60 }} /> },
-    { id: 3, title: "Awards Won", endValue: 44, icon: <img src="/success.png" alt="Awards Won" style={{ width: 60, height: 60 }} /> },
+    { id: 2, title: "Top Talent Employees", endValue: 7500, icon: <img src="/employee.png" alt="Top Talent Employees" style={{ width: 60, height: 60 }} /> },
+    { id: 2, title: "Happy Clients", endValue: 80, icon: <img src="/partnership.png" alt="Happy Clients" style={{ width: 60, height: 60 }} /> },
+    { id: 3, title: "Awards Won", endValue: 23, icon: <img src="/success.png" alt="Awards Won" style={{ width: 60, height: 60 }} /> },
     { id: 4, title: "Global Campuses", endValue: 44, icon: <img src="/global-connection.png" alt="Global Campuses" style={{ width: 60, height: 60 }} /> }
 
 ];
