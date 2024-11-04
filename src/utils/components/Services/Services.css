@@ -96,13 +96,18 @@
     font-size: 0.8rem;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 780px) {
     .slick-slide.slick-active.slick-current + .slick-slide .comment {
     transition: all 1000ms ease-out;
     scale: 1.1; 
     transform: translateY(-10px);
     box-shadow: var(--shadow);
     }
-
+    .s-wrapper{
+        padding-top: 0rem;
+    }
+    .s-wrapper .container{
+        padding-top: 0rem;
+    }
 }
 

@@ -69,8 +69,9 @@
 }
 
 .about-support {
+    width: 50%;
     display: flex;
-    padding: 2rem 18rem;
+    padding: 2rem 14rem;
     box-shadow: var(--shadow);
     border-radius: 1.5rem;
     justify-content: space-between;

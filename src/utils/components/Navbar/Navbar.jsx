@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Image src='/logo.png' alt='logo' width={250} height={200}/>
             </div> */}
             <div className="n-logo">
-    <Image src="/logo-1.png" alt="logo" width={150} height={85} style={{ objectFit: 'contain' }} />
+    <Image src="/KALVEN .png" alt="logo" width={150} height={85} style={{ objectFit: 'contain' }} />
 </div>
 
             <div className='n-right'>
@@ -56,12 +56,14 @@ const Navbar = () => {
         </div>
      </div>
      <div className='nm-container'>
-        <span>KALVEN</span>
+        <span>
+        <Image src="/KALVEN .png" alt="logo" width={120} height={50} style={{ objectFit: 'contain' }} />
+        </span>
 
        {!mobileMenuOpened ? (
-        <BiMenuAltRight size={30} onClick={()=> setMobileMenuOpened(true )} />
+        <BiMenuAltRight size={30} color='#292929' onClick={()=> setMobileMenuOpened(true )} />
         ) : (
-        <RxCross2 size={30} onClick={() => setMobileMenuOpened(false)} />
+        <RxCross2 size={30} color='#292929' onClick={() => setMobileMenuOpened(false)} />
         )}
 
         <div className="nm-menu" style={{ transform: mobileMenuOpened && "translateX(0%)" }}>

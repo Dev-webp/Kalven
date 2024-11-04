@@ -4,8 +4,8 @@
 
 .f-wrapper .container{
     margin-top: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
 }
 
 .f-container{
@@ -45,6 +45,11 @@
 
 .text-f{
     font-weight:300;
+    color: rgb(221, 221, 221);
+}
+
+.C-f {
+    color: rgb(221, 221, 221);
 }
 
 
