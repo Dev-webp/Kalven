@@ -60,13 +60,23 @@
     font-weight: bold;
 }
 
+.f-menu span:hover{
+    color: #7732ac;
+}
+
 .text-f{
     font-weight:300;
     color: rgb(221, 221, 221);
+    text-decoration: none;
 }
 
 .C-f {
     color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+.W-f{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
 }
 
 

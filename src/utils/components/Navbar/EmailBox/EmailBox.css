@@ -1,6 +1,6 @@
 .emailBox{
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border-radius: 999px;
     display: flex;
     align-items: center;
@@ -9,17 +9,17 @@
     overflow: hidden;
 }
 
-.emailBox>input{
+.emailInput{
     outline: none;
     border: none;
     margin-left: 1rem;
     font-size: 1rem;
-    color: rgb(150, 150, 150);
+    color: #292929;
     /* font-family: '__Josefin_Sans_584c1b', '__Josefin_Sans_Fallback_584c1b'; */
     flex: 1;
 }
 
-.emailBox>input::placeholder{
+.emailInput::placeholder{
     font-size: 1rem;
 }
 
@@ -36,6 +36,8 @@
     border-radius: 999px;
     color: white;
 }
+
+
 
 @media (max-width: 792px){
     .emailBox>input{

@@ -41,11 +41,11 @@ export const features = [
     title: "IT Strategy's",
   },
   {
-    icon: "/features/Frame-0.png",
+    icon: "/features/Frame-3.png",
     title: "Data Backup",
   },
   {
-    icon: "/features/Frame-3.png",
+    icon: "/features/Frame-0.png",
     title: "Network Setup",
   },
   {

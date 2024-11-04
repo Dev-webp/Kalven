@@ -18,7 +18,6 @@ export const Footer = () => {
             <a href='https://facebook.com' target='_blank' rel='noopener noreferrer'><FaFacebookF size={25} /></a>
             <a href='https://twitter.com' target='_blank' rel='noopener noreferrer'><FaTwitter size={25} /></a>
             <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer'><FaLinkedinIn size={25} /></a>
-            <a href='https://youtube.com' target='_blank' rel='noopener noreferrer'><FaYoutube size={25} /></a>
           </div>
 
           <hr/>
@@ -31,10 +30,17 @@ export const Footer = () => {
           </div>
 
           <hr/>
+          
+          <a href='https://maps.app.goo.gl/UAyXLn3BN4Lc6drP9' className='text-f' target='_blank' rel='noopener noreferrer'>
+              Kalven Group Of Limited Liability Company 
+          </a>
+          <a href='https://maps.app.goo.gl/UAyXLn3BN4Lc6drP9' className='text-f' target='_blank' rel='noopener noreferrer'>5900 Balcones Drive STE 100, Austin, TX 78731, TRAVIS TEXAS</a>
+          <span className='C-f'>
+    <a href='tel:+13048143494' className='C-f'>Call: +1 304 814 3494 </a> || 
+    <a href='https://wa.me/13322012159' className='W-f' target='_blank' rel='noopener noreferrer'> WhatsApp: +1 332 201 2159</a>
+</span>
 
-          <span className='text-f'>Kalven Group Of Limited Liability Company</span>
-          <span className='text-f'>5900 Balcones Drive STE 100, Austin, TX 78731, TRAVIS TEXAS</span>
-          <span className='C-f'>Call :+1 304 814 3494 ||<span className='W-f'> WhatsApp: +1 332 201 2159</span></span>
+
         </div>
       </div>
     </div>
