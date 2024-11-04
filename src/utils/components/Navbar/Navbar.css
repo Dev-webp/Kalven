@@ -127,6 +127,7 @@
         padding: 3rem 2rem;
         box-sizing: border-box;
         left: 0;
+        align-items: center;
         display: flex;
         background-color: var(--primary-color);
         flex-direction: column;

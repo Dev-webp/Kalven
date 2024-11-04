@@ -137,4 +137,7 @@
     .h-left{
         margin-right: 36px;
     }
+    .h-title{
+        margin-top: 2rem;
+    }
 }
