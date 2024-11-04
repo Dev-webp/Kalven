@@ -50,7 +50,7 @@ const EmailBox = () => {
       once: true
     }}
     className='contactUs'>
-        Contact us
+        Get in Touch
     </motion.div>
 
     </motion.div>

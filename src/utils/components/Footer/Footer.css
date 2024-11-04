@@ -17,11 +17,28 @@
 
 .f-container .title{
     color: white;
+    font-style: oblique;
 }
 
 .f-container .emailBox{
     max-width: 36rem;
 }
+
+.social-icons {
+    display: flex;
+    gap: 45px;
+    margin: 15px 0;
+  }
+  
+  .social-icons a {
+    color: #e2e2e2; /* Or any other color you prefer */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #7732ac; /* Change color on hover, e.g., LinkedIn blue */
+  }
+  
 
 .f-container hr{
     border-color: var(--border-color-light);
