@@ -29,7 +29,8 @@ const Navbar = () => {
                 <Image src='/logo.png' alt='logo' width={250} height={200}/>
             </div> */}
             <div className="n-logo">
-    <Image src="/KALVEN .png" alt="logo" width={150} height={85} style={{ objectFit: 'contain' }} />
+                <Link to='h-wrapper' spy={true} smooth={true}>
+    <Image src="/KALVEN .png" alt="logo" width={150} height={85} style={{ objectFit: 'contain' }} /></Link>
 </div>
 
             <div className='n-right'>
@@ -49,7 +50,7 @@ const Navbar = () => {
                 <span className='n-menu-item'>What We Do</span>
                 </Link>       
                 </div>
-                <a href="mailto:example@example.com" className='contact-button'>
+                <a href="mailto:kalvenitgroup@gmail.com" className='contact-button'>
                     Contact
                 </a>
             </div>
@@ -57,7 +58,8 @@ const Navbar = () => {
      </div>
      <div className='nm-container'>
         <span>
-        <Image src="/KALVEN .png" alt="logo" width={120} height={50} style={{ objectFit: 'contain' }} />
+        <Link to='h-wrapper' spy={true} smooth={true}>
+        <Image src="/KALVEN .png" alt="logo" width={120} height={50} style={{ objectFit: 'contain' }} /></Link>
         </span>
 
        {!mobileMenuOpened ? (

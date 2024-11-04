@@ -33,28 +33,28 @@ export const HeroData = [
 
 export const features = [
   {
-    icon: "/features/Frame-2.png",
+    icon: "/features/web-hosting.png",
     title: "Cloud Hosting",
   },
   {
-    icon: "/features/Frame-1.png",
+    icon: "/features/strategy.png",
     title: "IT Strategy's",
   },
   {
-    icon: "/features/Frame-3.png",
-    title: "Data Backup",
+    icon: "/features/cloud-database.png",
+    title: "Data Backup's",
   },
   {
-    icon: "/features/Frame-0.png",
+    icon: "/features/dedicated-server.png",
     title: "Network Setup",
   },
   {
-    icon: "/features/Frame-4.png",
-    title: "Cyber Defense",
+    icon: "/features/idea.png",
+    title: "Tech Solutions",
   },
   {
-    icon: "/features/Frame-5.png",
-    title: "Tech Solutions",
+    icon: "/features/cyber-security.png",
+    title: "Cyber Defense",
   },
 ];
 
