@@ -1,16 +1,16 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
-import { FaUserTie, FaSmile, FaTrophy, FaGlobe } from 'react-icons/fa'; // Icons for each counter
 import './Count.css';
 
 const CounterGrid = () => {
   const counters = [
-    { id: 1, title: "Top Talent Employees", endValue: 1500, icon: <FaUserTie /> },
-    { id: 2, title: "Happy Clients", endValue: 300, icon: <FaSmile /> },
-    { id: 3, title: "Awards Won", endValue: 25, icon: <FaTrophy /> },
-    { id: 4, title: "Global Campuses", endValue: 44, icon: <FaGlobe /> }
-  ];
+    { id: 2, title: "Top Talent Employees", endValue: 44, icon: <img src="/employee.png" alt="Top Talent Employees" style={{ width: 60, height: 60 }} /> },
+    { id: 2, title: "Happy Clients", endValue: 44, icon: <img src="/partnership.png" alt="Happy Clients" style={{ width: 60, height: 60 }} /> },
+    { id: 3, title: "Awards Won", endValue: 44, icon: <img src="/success.png" alt="Awards Won" style={{ width: 60, height: 60 }} /> },
+    { id: 4, title: "Global Campuses", endValue: 44, icon: <img src="/global-connection.png" alt="Global Campuses" style={{ width: 60, height: 60 }} /> }
+
+];
 
   const { ref, inView } = useInView({
     triggerOnce: true,
